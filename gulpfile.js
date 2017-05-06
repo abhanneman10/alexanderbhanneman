@@ -3,7 +3,6 @@
  *  The gulp tasks are splitted in several files in the gulp directory
  *  because putting all here was really too long
  */
-
 'use strict';
 
 var gulp = require('gulp');
@@ -26,4 +25,8 @@ wrench.readdirSyncRecursive('./gulp').filter(function(file) {
  */
 gulp.task('default', ['clean'], function () {
   gulp.start('build');
+});
+
+gulp.task('heroku:production', ['build'], function(){
+  console.log('herokuduction');
 });
