@@ -1,1 +1,1 @@
-node heroku-web.js
+node ./heroku-web.js
