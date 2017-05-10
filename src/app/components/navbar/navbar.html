@@ -1,21 +1,15 @@
 <nav class="navbar navbar-static-top navbar-inverse">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="https://github.com/Swiip/generator-gulp-angular">
-        <span class="glyphicon glyphicon-home"></span> Gulp Angular
-      </a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
-      <ul class="nav navbar-nav">
-        <li class="active"><a ng-href="#">Home</a></li>
-        <li><a ng-href="#">About</a></li>
-        <li><a ng-href="#">Contact</a></li>
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right acme-navbar-text">
-        <li>Application was created {{ vm.relativeDate }}.</li>
-      </ul>
-    </div>
+    <a ui-sref="about"><span class="pull-left col-md-offset-1 navbar-title">Alexander B Hanneman</span></a>
+    <ul class="nav navbar-nav">
+      <li ui-sref-active="active"><a ui-sref="about">About</a></li>
+      <li><a href="..\..\..\assets\Alex_B_Hanneman's_Resume.pdf" target="_blank">Resume</a></li>
+      <li ui-sref-active="active"><a ui-sref="contact">Contact</a></li>
+      <li ui-sref-active="active"><a ui-sref="portfolio">Portfolio</a></li>
+    </ul>
+    <span class="navbar-images col-md-2">
+      <a class="navbar-image pull-right" href="https://www.linkedin.com/in/alexander-hanneman-7154b960" target="_blank"><span class="fa fa-linkedin fa-3x"></span></a>
+      <a class="navbar-image pull-right" href="https://github.com/alexbhanneman" target="_blank"><span class="fa fa-github fa-3x"></span></a>
+    </span>
   </div>
 </nav>
