@@ -62,7 +62,7 @@
         current: true
       },
       {
-        type: 'NodeJs',
+        type: 'Node.js',
         current: true
       },
       {
@@ -94,7 +94,7 @@
         current: false
       },
       {
-        type: 'Material UI',
+        type: 'Material-UI',
         current: false
       },
       {
