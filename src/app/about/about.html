@@ -1,48 +1,37 @@
-<div>
-  <img src="" />
-</div>
 <h1>About Me</h1>
 <div class="row">
-  <div class="col-md-11">
+  <div class="col-md-10">
     <p>
       I am a software developer who loves to write software to build great products and help businesses succeed with their goals.
       I appreciate good design and I am seeing it's importance more then ever in todays apps, web sites and products.
     </p>
     <p>
       I have been working professionally in software as a full-stack developer since 2015 in the web and desktop app spaces.
+      From my experience I have learned advanced knowledge of developer applications, tools, methodologies along with best coding and design practices.
+    </p>
+    <p>
       In my spare time I occasionally dabble in web site development and learning new tech stacks.
+      <br/>You can view some of my side projects on my <a ui-sref="portfolio">portfolio</a> page.
     </p>
   </div>
 </div>
-<h1>Skills</h1>
+<h1>Skills / Technologies</h1>
 <div class="row">
   <div class="col-md-3">
     <ul>
-      <li>.NET</li>
-      <li>C#</li>
-      <li>Java</li>
-      <li>VisualBasic</li>
-      <li>WPF</li>
-      <li>SQL Server</li>
-      <li>ElasticSearch</li>
-      <li>PHP</li>
-      <li>Redis Cache</li>
-      <li>REST and SOAP web services</li>
-      <li>MS Azure’s App Insights</li>
+      <li ng-repeat="item in vm.skills">
+        {{item.type}} <span ng-show="item.current" class="fa fa-check-circle fa-1x"></span>
+      </li>
     </ul>
   </div>
   <div class="col-md-3">
     <ul>
-      <li>AngularJS</li>
-      <li>NodeJs</li>
-      <li>JQuery</li>
-      <li>JavaScript</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Boostrap</li>
-      <li>Material UI</li>
-      <li>Auth0</li>
+      <li ng-repeat="item in vm.skillsWeb">
+        {{item.type}} <span ng-show="item.current" class="fa fa-check-circle fa-1x"></span>
+      </li>
     </ul>
+  </div>
+  <div class="col-md-6">
+    <h4><span class="fa fa-check-circle fa-1x"></span> = used in current role</h4>
   </div>
 </div>
