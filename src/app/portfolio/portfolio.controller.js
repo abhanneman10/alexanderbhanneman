@@ -11,6 +11,12 @@
 
     vm.items = [
       {
+        title: 'Starbrite Window Cleaning Website',
+        link: '',
+        image: '../../assets/images/starbrite.png',
+        description: 'Coming Soon (July 2017)'
+      },
+      {
         title: 'Bluffs Bar Website',
         link: 'http://www.thebluffsbar.com',
         image: '../../assets/images/bluffsbar.png',

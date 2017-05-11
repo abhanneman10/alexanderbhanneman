@@ -8,6 +8,7 @@
   color: white;
   font-size: 32px;
   margin-bottom: 6px;
+  margin-left: 5%;
   cursor: pointer;
   font-family: serif;
 }
@@ -20,7 +21,6 @@
 .navbar-nav li{
   margin-right: 20px;
   letter-spacing: 2px;
-  padding-bottom: 3px;
 }
 .navbar-nav li:hover{
   border-bottom: red 3px solid;
