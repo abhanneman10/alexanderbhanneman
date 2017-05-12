@@ -17,8 +17,6 @@
       .state('contact', {
         url: '/contact',
         templateUrl: 'app/contact/contact.html',
-        controller: 'ContactController',
-        controllerAs: 'vm'
       })
       .state('about', {
         url: '/',
