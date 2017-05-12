@@ -22,7 +22,6 @@ gulp.task('partials', function () {
       module: 'alexanderbhanneman',
       root: 'app'
     }))
-    .pipe($.replace('../../bower_components/font-awesome/fonts', '../fonts'))
     .pipe(gulp.dest(conf.paths.tmp + '/partials/'));
 });
 
