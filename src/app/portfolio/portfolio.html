@@ -5,7 +5,8 @@
       <li ng-repeat="item in vm.items" class="portfolio-item">
         <div class="row portfolio-row">
           <div class="col-md-3 col-xs-3">
-            <img ng-src="{{item.image}}" /><br/>
+            <a ng-href="{{item.link}}" target="_blank"><img ng-src="{{item.image}}" /></a>
+            <br/>
           </div>
           <div class="col-md-7 portfolio-link">
             <a ng-href="{{item.link}}" target="_blank">{{item.title}}</a>

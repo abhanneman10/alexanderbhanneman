@@ -11,6 +11,7 @@ p{
 }
 li{
   margin-bottom: 10px;
+  list-style-type: none;
 }
 body{
   padding-bottom: 60px;
@@ -21,7 +22,6 @@ img{
   border: solid gray 2px;
 }
 .portfolio-item{
-  list-style-type: none;
   margin-left: -5%;
   margin-top: 40px;
 }
@@ -33,4 +33,7 @@ img{
 }
 .fa-check-circle{
   color: green;
+}
+.padding-left{
+  margin-left: 20px;
 }

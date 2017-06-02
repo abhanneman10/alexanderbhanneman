@@ -66,6 +66,10 @@
         current: true
       },
       {
+        type: 'MongoDB',
+        current: false
+      },
+      {
         type: 'JQuery',
         current: true
       },
@@ -86,6 +90,10 @@
         current: true
       },
       {
+        type: 'Auth0',
+        current: true
+      },
+      {
         type: 'React',
         current: false
       },
@@ -96,10 +104,6 @@
       {
         type: 'Material-UI',
         current: false
-      },
-      {
-        type: 'Auth0',
-        current: true
       }
     ]
   }
