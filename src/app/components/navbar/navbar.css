@@ -1,3 +1,11 @@
+/*@media only screen 
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+}*/
+
 .acme-navbar-text {
   color: white;
 }
@@ -15,11 +23,7 @@
 .navbar{
   padding-top: 30px;
 }
-.navbar-nav{
-  margin-left: 100px;
-}
 .navbar-nav li{
-  margin-right: 20px;
   letter-spacing: 2px;
 }
 .navbar-nav li:hover{

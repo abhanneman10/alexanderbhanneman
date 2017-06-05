@@ -16,8 +16,9 @@
   </div>
 </div>
 <h1>Skills / Technologies</h1>
+<h4><span class="fa fa-check-circle fa-1x"></span> = used in current role</h4>
 <div class="row">
-  <div class="col-md-3">
+  <div class="col-md-3 col-xs-6">
     <ul>
       <li ng-repeat="item in vm.skills">
         <span ng-show="item.current" class="fa fa-check-circle fa-1x"></span>
@@ -26,7 +27,7 @@
       </li>
     </ul>
   </div>
-  <div class="col-md-3">
+  <div class="col-md-3 col-xs-6">
     <ul>
       <li ng-repeat="item in vm.skillsWeb">
         <span ng-show="item.current" class="fa fa-check-circle fa-1x"></span>
@@ -34,8 +35,5 @@
         {{item.type}}
       </li>
     </ul>
-  </div>
-  <div class="col-md-6">
-    <h4><span class="fa fa-check-circle fa-1x"></span> = used in current role</h4>
   </div>
 </div>
