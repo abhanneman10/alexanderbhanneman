@@ -1,39 +1,35 @@
-/*@media only screen 
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-
-}*/
-
 .acme-navbar-text {
   color: white;
 }
 .active{
   border-bottom: white solid 3px !important;
+  margin-bottom: 3px;
 }
 .navbar-title{
   color: white;
   font-size: 32px;
   margin-bottom: 6px;
-  margin-left: 5%;
+  margin-left: 10%;
   cursor: pointer;
   font-family: serif;
 }
 .navbar{
   padding-top: 30px;
+  width: 100%;
 }
 .navbar-nav li{
   letter-spacing: 2px;
+  margin-top: 20px;
 }
 .navbar-nav li:hover{
+  margin-bottom: -3px;
   border-bottom: red 3px solid;
 }
 .navbar-image{
   color: gray;
-  margin-left: 20px;
-  margin-top: 5px;
-  padding-bottom: 6px;
+  margin-right: 20px;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 .navbar-image:hover{
   cursor: pointer;
