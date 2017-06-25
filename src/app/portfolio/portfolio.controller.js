@@ -36,7 +36,7 @@
         title: 'My Old Resume Website',
         link: 'http://alexbhanneman.herokuapp.com',
         image: '../../assets/images/oldresume.png',
-        description: 'Along with the Dependable Builders website, I also made my resume website to market myself going into my last semester of ' +
+        description: 'Going into my last semester of college I made a resume website to market myself ' +
         'college (Fall \'15) and applying for jobs to start my career.'
       }
     ]
