@@ -9,7 +9,7 @@
   color: white;
   font-size: 32px;
   margin-bottom: 6px;
-  margin-left: 10%;
+  padding: 20px;
   cursor: pointer;
   font-family: serif;
 }
@@ -36,4 +36,28 @@
   color: white;
   margin-bottom: -3px;
   border-bottom: red 3px solid;
+}
+.close-mobile-navbar{
+  position: fixed;
+  right: 20;
+  top: 20;
+}
+.nav-mobile-options{
+  margin-top: 50px;
+}
+.navbar-modal-option{
+  margin-left: 20px;
+  color: white;
+  font-size: 48px;
+}
+#navbarModal, #servicesModal{
+  background-color: #031633;
+}
+.navbar-mobile{
+  padding: 20px;
+  background-color: black;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }

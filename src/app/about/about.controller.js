@@ -39,10 +39,6 @@
         current: true
       },
       {
-        type: 'PHP',
-        current: false
-      },
-      {
         type: 'Redis Cache',
         current: true
       },
@@ -62,8 +58,12 @@
         current: true
       },
       {
-        type: 'Node.js',
+        type: 'React - Redux',
         current: true
+      },
+      {
+        type: 'Node.js',
+        current: false
       },
       {
         type: 'MongoDB',
@@ -92,18 +92,6 @@
       {
         type: 'Auth0',
         current: true
-      },
-      {
-        type: 'React',
-        current: false
-      },
-      {
-        type: 'Redux',
-        current: false
-      },
-      {
-        type: 'Material-UI',
-        current: false
       }
     ]
   }

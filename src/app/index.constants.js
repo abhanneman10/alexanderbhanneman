@@ -6,5 +6,4 @@
     .module('alexanderbhanneman')
     .constant('malarkey', malarkey)
     .constant('moment', moment);
-
 })();
