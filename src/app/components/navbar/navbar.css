@@ -43,21 +43,28 @@
   top: 20;
 }
 .nav-mobile-options{
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .navbar-modal-option{
   margin-left: 20px;
-  color: white;
   font-size: 48px;
+  margin-bottom: 40px !important;
 }
-#navbarModal, #servicesModal{
-  background-color: #031633;
+#navbarModal{
+  background-color: black;
 }
 .navbar-mobile{
   padding: 20px;
   background-color: black;
   height: 100px;
-  position: fixed;
   width: 100%;
-  z-index: 100;
+}
+.navbar-option{
+  color: white !important;
+  margin-bottom: 40px;
+}
+.navbar-mobile-title{
+  color: white;
+  letter-spacing: 3px;
+  margin-left: 10px;
 }
