@@ -12,9 +12,9 @@
     vm.items = [
       {
         title: 'Starbrite Window Cleaning Website',
-        link: 'https://starbrite.herokuapp.com',
+        link: 'http://starbritewindowcleaning.com',
         image: '../../assets/images/starbrite.png',
-        description: 'Gulp Angular web UI site with NodeJS and MongoDB backend.'
+        description: 'AngularJs with Bootstrap web UI site with NodeJS and MongoDB backend.'
       },
       {
         title: 'Bluffs Bar Website',
