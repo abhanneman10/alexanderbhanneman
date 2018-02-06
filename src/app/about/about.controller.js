@@ -23,16 +23,12 @@
         current: true
       },
       {
+        type: 'RabbitMQ',
+        current: true
+      },
+      {
         type: 'Java',
         current: false
-      },
-      {
-        type: 'VisualBasic',
-        current: true
-      },
-      {
-        type: 'WPF',
-        current: true
       },
       {
         type: 'SQL Server',
@@ -47,11 +43,15 @@
         current: true
       },
       {
-        type: 'MS Azure\'s App Insights',
+        type: 'VisualBasic',
         current: true
       },
       {
-        type: 'RabbitMQ',
+        type: 'WPF',
+        current: true
+      },
+      {
+        type: 'MS Azure\'s App Insights',
         current: true
       }
     ];
