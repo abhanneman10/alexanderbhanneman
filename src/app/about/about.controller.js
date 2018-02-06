@@ -49,6 +49,10 @@
       {
         type: 'MS Azure\'s App Insights',
         current: true
+      },
+      {
+        type: 'RabbitMQ',
+        current: true
       }
     ];
 
