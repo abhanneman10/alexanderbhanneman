@@ -43,15 +43,7 @@
         current: true
       },
       {
-        type: 'VisualBasic',
-        current: true
-      },
-      {
-        type: 'WPF',
-        current: true
-      },
-      {
-        type: 'MS Azure\'s App Insights',
+        type: 'MS Azure',
         current: true
       }
     ];
@@ -63,7 +55,7 @@
       },
       {
         type: 'React - Redux',
-        current: true
+        current: false
       },
       {
         type: 'Node.js',
