@@ -43,7 +43,7 @@
         current: true
       },
       {
-        type: 'MS Azure',
+        type: 'MS Azure\'s App Insights',
         current: true
       }
     ];
