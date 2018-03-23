@@ -11,11 +11,7 @@
 
     vm.skills = [
       {
-        type: '.NET',
-        current: true
-      },
-      {
-        type: 'C#',
+        type: 'C# .NET',
         current: true
       },
       {
