@@ -16,22 +16,24 @@
   </div>
 </div>
 <h1>Skills / Technologies</h1>
-<h4><span class="fa fa-check-circle fa-1x"></span> is used at current job</h4>
-<br/>
-<br/>
 <div class="row bottom-row">
-  <div class="col-md-3 col-sm-6">
-    <ul>
-      <li ng-repeat="item in vm.skills">
-        <span ng-show="item.current" class="fa fa-check-circle fa-1x"></span>
+  <div class="col-md-5 col-sm-6">
+    <h2>Proficient</h2>
+    <ul class="skills-list">
+      <li ng-repeat="item in vm.proficientSkills">
+        <span ng-show="item.current"
+              class="fa fa-check-circle fa-1x"
+              data-toggle="tooltip"
+              title="Used in current role"></span>
         <span ng-hide="item.current" class="padding-left"></span>
         {{item.type}}
       </li>
     </ul>
   </div>
-  <div class="col-md-3 col-sm-6 col-xs-12">
-    <ul>
-      <li ng-repeat="item in vm.skillsWeb">
+  <div class="col-md-5 col-sm-6 col-xs-12">
+    <h2>Familiar</h2>
+    <ul class="skills-list">
+      <li ng-repeat="item in vm.familiarSkills">
         <span ng-show="item.current" class="fa fa-check-circle fa-1x"></span>
         <span ng-hide="item.current" class="padding-left"></span>
         {{item.type}}

@@ -31,6 +31,9 @@ img{
   height: 90%;
   border: solid gray 2px;
 }
+.skills-list {
+  padding-left: 0;
+}
 .portfolio-item{
   margin-left: -5%;
   margin-top: 40px;

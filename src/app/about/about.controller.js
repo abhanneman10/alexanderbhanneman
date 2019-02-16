@@ -9,9 +9,9 @@
   function AboutController() {
     var vm = this;
 
-    vm.skills = [
+    vm.proficientSkills = [
       {
-        type: 'C# .NET',
+        type: 'C# .NET Core',
         current: true
       },
       {
@@ -19,39 +19,67 @@
         current: true
       },
       {
-        type: 'RabbitMQ',
-        current: true
-      },
-      {
-        type: 'Java',
-        current: false
-      },
-      {
         type: 'SQL Server',
         current: true
       },
       {
-        type: 'Redis Cache',
+        type: 'Azure',
         current: true
       },
       {
-        type: 'REST web services',
+        type: 'Kubernetes',
         current: true
       },
       {
-        type: 'MS Azure\'s App Insights',
+        type: 'Docker',
         current: true
-      }
-    ];
-
-    vm.skillsWeb = [
+      },
+      {
+        type: 'REST & Micro services',
+        current: true
+      },
+      {
+        type: 'Kong',
+        current: true
+      },
       {
         type: 'AngularJS',
         current: true
       },
       {
-        type: 'React - Redux',
-        current: false
+        type: 'React & Redux',
+        current: true
+      },
+      {
+        type: 'Javascript & Typescript',
+        current: true
+      },
+      {
+        type: 'HTML',
+        current: true
+      },
+      {
+        type: 'CSS, Bootstrap, SemanticUI',
+        current: true
+      },
+      {
+        type: 'Auth0',
+        current: true
+      }
+    ];
+
+    vm.familiarSkills = [
+      {
+        type: 'Redis Cache',
+        current: true
+      },
+      {
+        type: 'Jenkins',
+        current: true
+      },
+      {
+        type: 'Powershell',
+        current: true
       },
       {
         type: 'Node.js',
@@ -62,28 +90,8 @@
         current: false
       },
       {
-        type: 'JQuery',
-        current: true
-      },
-      {
-        type: 'JavaScript',
-        current: true
-      },
-      {
-        type: 'HTML',
-        current: true
-      },
-      {
-        type: 'CSS',
-        current: true
-      },
-      {
-        type: 'Boostrap',
-        current: true
-      },
-      {
-        type: 'Auth0',
-        current: true
+        type: 'RabbitMQ',
+        current: false
       }
     ]
   }
