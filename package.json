@@ -55,6 +55,6 @@
     "preinstall": "bower install"
   },
   "engines": {
-    "node": "6.10.1"
+    "node": "8.11.1"
   }
 }
